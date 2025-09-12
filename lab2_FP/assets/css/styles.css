@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunitoextrabold.woff');
+}
+
+@font-face {
+    font-family: 'NunitoRegular';
+    src: url('../fonts/Nunitoregular.woff');
+}
+
+@font-face {
+    font-family: 'NunitoBold';
+    src: url('../fonts/Nunitobold.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 48px;
+    color: #4F4E4F;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.input-todo {
+    box-sizing: border-box;
+    width: 373px;
+    height: 40px;
+    background: #EFEFF5;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-feature-settings: 'case' on;
+    color: rgba(18, 18, 18, 0.6);
+    outline: none;
+}
+
+.input-todo::placeholder {
+    color: #B3B3B3;
+}
+
+.add-btn {
+    width: 83px;
+    height: 40px;
+    background: #467DF2;
+    border-radius: 10px;
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 10px;
+}
+
+.delete-btn {
+    width: 75px;
+    height: 20px;
+    background: #467DF2;
+    border-radius: 5px;
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.add-btn:hover {
+    background: #2F54A3;
+}
+
+.input-section {
+    padding-bottom: 50px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.filter-btn {
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #858796;
+    border: none;
+    background: transparent;
+}
+
+.filter-btn.active {
+    color: #2F54A3;
+}
+
+.task-list {
+    list-style: none;
+}
+
+.task-list li {
+    box-sizing: border-box;
+    width: 466px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-feature-settings: 'case' on;
+    color: rgba(18, 18, 18, 0.6);
+    outline: none;
+}
+
+.task-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-text {
+    font-family: 'NunitoBold', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 20px;
+}
