@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Во что компилировать (современный JS)
+    "module": "ES2020", // Система модулей
+    "outDir": "./dist", // Папка для скомпилированных JS-файлов
+    "rootDir": "./src", // Папка с исходными TS-файлами
+    "sourceMap": true, // ✅ ВАЖНО: создает .map файлы для отладки
+    "removeComments": false, // Сохранять комментарии
+    "noEmitOnError": false, // Продолжать компиляцию при ошибках
+  },
+  "include": ["src/**/*.ts"], // Где искать TS-файлы
+  "exclude": ["node_modules", "dist"] // Что игнорировать
+}
