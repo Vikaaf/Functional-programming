@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wptPiTlwHKY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vilka\\OneDrive\\Документы\\ФП\\lab6_FP\\lab6_FP\\lab6_FP\\lab6_FP.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vilka\\.nuget\\packages\\fsharp.core\\8.0.401\\fsharp.core.8.0.401.nupkg.sha512"
+  ],
+  "logs": []
+}
